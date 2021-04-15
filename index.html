@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script/script.js"></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<main id="main">
+			<div id="mainDiv" class="brdRds">
+				<header id="header"></header>
+
+				<nav id="maingnb">
+					<ul>
+						<li id="selected"><a href="#">서울/경기</a></li>
+						<li><a href="#">강원</a></li>
+						<li><a href="#">충북</a></li>
+						<li><a href="#">충남</a></li>
+						<li><a href="#">전북</a></li>
+						<li><a href="#">전남</a></li>
+						<li><a href="#">경북</a></li>
+						<li><a href="#">경남</a></li>
+					</ul>
+				</nav>
+
+				<div id="imgGallery">
+					<div class="btnArrow">
+						<img src="images/prev_img.png" alt="btnArrowPrev" width="51" id="btnArrowPrev">
+					</div>
+
+					<div id="slideMain">
+						<div id="shuttleFrame">
+							<table>
+								<tbody>
+									<tr>
+										<td><img src="images/gallery_01.jpg" alt="슬라이드이미지1" width="272"></td>
+									</tr>
+									<tr>
+										<td>
+											<h4>유명산 자연휴양림</h4>
+											<img src="images/tlqkf_home.png" alt="홈아이콘" width="28">
+											<address>경기 가평군 설악면 유명산길 79-53</address>
+
+											<ul>
+												<li>031-589-5487</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table> <!-- table:first-child -->
+
+							<table>
+								<tbody>
+									<tr>
+										<td><img src="images/gallery_02.jpg" alt="슬라이드이미지2" width="272"></td>
+									</tr>
+									<tr>
+										<td>
+											<h4>산음 자연휴양림</h4>
+											<img src="images/tlqkf_home.png" alt="홈아이콘" width="28">
+											<address>경기도 양평군 단월면 고북길 347</address>
+
+											<ul>
+												<li>031-774-8133</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table> <!-- table:nth-child(2) -->
+
+							<table>
+								<tbody>
+									<tr>
+										<td><img src="images/gallery_03.jpg" alt="슬라이드이미지2" width="272"></td>
+									</tr>
+									<tr>
+										<td>
+											<h4>아세안 자연휴양림</h4>
+											<img src="images/tlqkf_home.png" alt="홈아이콘" width="28">
+											<address>경기도 양주시 백석읍 기산로 472</address>
+
+											<ul>
+												<li>031-871-2796</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table> <!-- table:nth-child(3) -->
+
+							<table>
+								<tbody>
+									<tr>
+										<td><img src="images/gallery_04.jpg" alt="슬라이드이미지2" width="272"></td>
+									</tr>
+									<tr>
+										<td>
+											<h4>중미산 자연휴양림</h4>
+											<img src="images/tlqkf_home.png" alt="홈아이콘" width="28">
+											<address>경기도 양평군 옥천면 중미산로 1152</address>
+
+											<ul>
+												<li>031-771-7166</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table> <!-- table:nth-child(4) -->
+
+							<table>
+								<tbody>
+									<tr>
+										<td><img src="images/gallery_05.gif" alt="슬라이드이미지2" width="272"></td>
+									</tr>
+									<tr>
+										<td>
+											<h4>운악산 자연휴양림</h4>
+											<img src="images/tlqkf_home.png" alt="홈아이콘" width="28">
+											<address>경기도 포천시 화현면 화동로 184번길 39</address>
+
+											<ul>
+												<li>031-534-6330</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+							</table> <!-- table:last-child -->
+
+						</div> <!-- div#shuttleFrame -->
+					</div> <!-- div#slideMain -->
+
+					<div class="btnArrow">
+						<img src="images/next_img.png" alt="btnArrowNext" id="btnArrowNext">
+					</div>
+				</div> <!-- div#imgGallery -->
+
+			</div> <!-- div#mainDiv -->
+		</main> <!-- main#main -->
+
+		<aside id="aside">
+			<div id="bbs" class="brdRds">
+				<div id="tabArea">
+					<button class="selected" id="bbsBtn">
+						<span></span>
+						<span>공지사항</span>
+					</button>
+					<button class="notselected" id="articleBtn">
+						<span></span>
+						<span>보도자료</span>
+					</button>
+					<div id="tabContents1" class="tabContents">
+						<table>
+							<tr>
+								<td>
+									<span class="date">
+										<span class="day">19</span>
+										<br>
+										<span class="yearMonth">2021.03</span>
+									</span>
+								</td>
+								<td>
+									<h3>
+										<a href="#">
+											국립자연휴양림 '스탬프투어'이벤
+										</a>
+									</h3>
+									<div>
+										<a href="#">
+											국립자연휴양림 스탬프 투어란?'국립자연휴양림 스탬프 투어'는 아름다운 경관과 쉼터를 제공하는 숲으
+										</a>
+									</div>
+								</td>
+								<td>
+									<span class="date">
+										<span class="day">10</span>
+										<br>
+										<span class="yearMonth">2021.02</span>
+									</span>
+								</td>
+								<td>
+									<h3>
+										<a href="#">
+											반려견 동반휴양림 정식운영 안내
+										</a>
+									</h3>
+									<div>
+										<a href="#">
+											반려견 동반 고객의 휴양수요 충족을 위해 2018년 7월부터 시범운영한 '반려견 동반 자연휴양림'에 대하
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<span class="date">
+										<span class="day">08</span>
+										<br>
+										<span class="yearMonth">2020.12</span>
+									</span>
+								</td>
+								<td>
+									<h3>
+										<a href="#">
+											국립자연휴양림 전기자동차 충전기
+										</a>
+									</h3>
+									<div>
+										<a href="#">
+											국립자연휴양림 전기자동차 충전기 설치 현황O 전기자동차 충전기 설치 휴양림- 급속충전기(50kw) : 유
+
+										</a>
+									</div>
+								</td>
+								<td>
+									<span class="date">
+										<span class="day">21</span>
+										<br>
+										<span class="yearMonth">2020.10</span>
+									</span>
+								</td>
+								<td>
+									<h3>
+										<a href="#">
+											제7회 국립자연휴양림 포토에세이...
+										</a>
+									</h3>
+									<div>
+										<a href="#">
+											국립자연휴양림관리소에서 국립자연휴양림 이용객들의 추억을 담아볼 수 있는 '제7회 국립자연휴양림 포
+										</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div id="tabContents2" class="tabContents">
+						<table>
+							<tr>
+								<td>
+									<span class="date">
+										<span class="day">12</span>
+										<br>
+										<span class="yearMonth">2021.04</span>
+									</span>
+								</td>
+								<td>
+									<h3>
+										<a href="#">
+											국립자연휴양림을 집에서도 실시간
+										</a>
+									</h3>
+									<div>
+										<a href="#">
+											국립자연휴양림 스탬프 투어란?'국립자연휴양림 스탬프 투어'는 아름다운 경관과 쉼터를 제공하는 숲으
+										</a>
+									</div>
+								</td>
+								<td>
+									<span class="date">
+										<span class="day">30</span>
+										<br>
+										<span class="yearMonth">2021.03</span>
+									</span>
+								</td>
+								<td>
+									<h3>
+										<a href="#">
+											국립자연휴양림 적극행정을 통한
+										</a>
+									</h3>
+									<div>
+										<a href="#">
+											반려견 동반 고객의 휴양수요 충족을 위해 2018년 7월부터 시범운영한 '반려견 동반 자연휴양림'에 대하
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<span class="date">
+										<span class="day">15</span>
+										<br>
+										<span class="yearMonth">2021.03</span>
+									</span>
+								</td>
+								<td>
+									<h3>
+										<a href="#">
+											해, 달 그리고 별을 품은 국립신시도
+										</a>
+									</h3>
+									<div>
+										<a href="#">
+											국립자연휴양림 전기자동차 충전기 설치 현황O 전기자동차 충전기 설치 휴양림- 급속충전기(50kw) : 유
+
+										</a>
+									</div>
+								</td>
+								<td>
+									<span class="date">
+										<span class="day">10</span>
+										<br>
+										<span class="yearMonth">2021.02</span>
+									</span>
+								</td>
+								<td>
+									<h3>
+										<a href="#">
+											국립자연휴양림 유지보수 전담반
+										</a>
+									</h3>
+									<div>
+										<a href="#">
+											국립자연휴양림관리소에서 국립자연휴양림 이용객들의 추억을 담아볼 수 있는 '제7회 국립자연휴양림 포
+										</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div id="banner" class="brdRds">
+
+				<div id="bannerDiv">
+					<div id="banheader">
+						<h2>알림판</h2>
+						<div id="btnArea">
+							<a href="#" id="btnPrev" title="이전으로(Prev)">
+								<img src="images/control_left.png" alt="이전 슬라이드">
+							</a>
+							<a href="#">
+								<img src="images/control_pause.png" alt="일시정지" id="pauseBtn">
+							</a>
+							<a href="#" id="btnNext" title="다음으로(Next)">
+								<img src="images/control_right.png" alt="다음 슬라이드">
+							</a>
+							<a href="#">
+								<img src="images/control_list.png" alt="관련 목록보기">
+							</a>
+						</div>
+					</div> <!-- div#banheader -->
+
+					<div id="slideArea">
+						<div id="bannerFrame">
+							<span>
+								<img src="images/notice_01.png" alt="슬라이드이미지1" >
+							</span>
+							<span>
+								<img src="images/notice_02.png" alt="슬라이드이미지2" >
+							</span>
+							<span>
+								<img src="images/notice_03.png" alt="슬라이드이미지3" >
+							</span>
+						</div> <!-- div#bannerFrame -->
+					</div> <!-- div#slideArea -->
+				</div>
+
+			</div> <!-- div#banner -->
+
+		</aside> <!-- aside#aside -->
+	</div> <!-- div#wrap -->
+</body>
+
+</html>
